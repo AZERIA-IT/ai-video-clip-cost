@@ -6,8 +6,8 @@
 // in src/lib/seo/clip-cost-dataset.js). The rows cannot be recomputed outside
 // production: each price is a live AI Studio quote that depends on the
 // production configuration (price table, rollout flags), which this script
-// never reads. The CSV header is checked against the site's own column list,
-// imported from a Twistavo checkout.
+// never reads. The CSV header is checked against the column list below, or
+// against the site's own list when TWISTAVO_CHECKOUT points to a checkout.
 //
 // Usage:
 //   node scripts/build.mjs                       # fetch the live CSV
@@ -17,7 +17,7 @@ import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
-const SITE = resolve(process.env.TWISTAVO_CHECKOUT || "/home/openclaw/twistavo/worktrees/ops-round");
+const SITE = process.env.TWISTAVO_CHECKOUT ? resolve(process.env.TWISTAVO_CHECKOUT) : null;
 const OUT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const SOURCE_URL = "https://twistavo.com/pricing/clip-cost";
 const DATA_URL = `${SOURCE_URL}/data`;
@@ -29,14 +29,27 @@ const argCsv = (() => {
   return i > 0 ? process.argv[i + 1] : null;
 })();
 
-// The site's column list. The site modules import TypeScript and extensionless
-// paths, so the site's own test loader is registered first, as its tests do.
-const site = (p) => import(pathToFileURL(join(SITE, p)).href);
-process.env.NODE_ENV = "test";
-const { installUiSsrLoader } = await site("tests/helpers/ui-ssr-loader.mjs");
-const loader = installUiSsrLoader();
-const { CLIP_COST_CSV_COLUMNS } = await site("src/lib/seo/clip-cost-dataset.js");
-loader.deregister();
+// Expected CSV columns (same order as the site's CLIP_COST_CSV_COLUMNS).
+const COLUMNS = [
+  "model_id", "model_name", "family", "resolution", "sound", "plan",
+  "plan_price_usd_per_month", "plan_credits_per_month", "usd_per_credit",
+  "clip_5s_credits", "clip_5s_usd", "clip_10s_credits", "clip_10s_usd", "price_date",
+];
+
+// With a Twistavo checkout, the site's own list is used instead. The site
+// modules import TypeScript and extensionless paths, so the site's test loader
+// is registered first, as its tests do.
+async function siteColumns() {
+  if (!SITE) return COLUMNS;
+  const site = (p) => import(pathToFileURL(join(SITE, p)).href);
+  process.env.NODE_ENV = "test";
+  const { installUiSsrLoader } = await site("tests/helpers/ui-ssr-loader.mjs");
+  const loader = installUiSsrLoader();
+  const { CLIP_COST_CSV_COLUMNS } = await site("src/lib/seo/clip-cost-dataset.js");
+  loader.deregister();
+  return CLIP_COST_CSV_COLUMNS;
+}
+const CLIP_COST_CSV_COLUMNS = await siteColumns();
 
 async function sourceCsv() {
   if (argCsv) return readFileSync(argCsv, "utf8");

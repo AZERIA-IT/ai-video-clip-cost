@@ -19,7 +19,7 @@ Cost of one AI video clip per model on [Twistavo](https://twistavo.com) AI Studi
 | `clip_10s_credits`, `clip_10s_usd` | Price of a 10-second clip (empty when the model has no 10-second clip) |
 | `price_date` | Date of the quotes, YYYY-MM-DD |
 
-Rows come in pairs per model: the cheapest plan, then the best-value plan when it is a different plan. Rows are sorted by the cost of a 5-second clip.
+Rows come in pairs per model: the cheapest plan, then the best-value plan when it is a different plan. Rows are sorted by the credit cost of a 5-second clip.
 
 ## How the numbers are computed
 
@@ -39,7 +39,7 @@ Prices change when model providers change theirs. Check `price_date` before you 
 
 ## Update
 
-`scripts/build.mjs` downloads https://twistavo.com/pricing/clip-cost/data.csv, checks its header against the site's column list, and writes `data/` and `index.html`. No value is typed by hand. Last update: see `price_date` in the data.
+`node scripts/build.mjs` (Node 20 or later, no dependencies) downloads https://twistavo.com/pricing/clip-cost/data.csv, checks its header against the expected column list, and writes `data/` and `index.html`. No value is typed by hand. Last update: see `price_date` in the data.
 
 ## License
 
