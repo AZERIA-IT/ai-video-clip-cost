@@ -1,0 +1,55 @@
+model_id,model_name,family,resolution,sound,plan,plan_price_usd_per_month,plan_credits_per_month,usd_per_credit,clip_5s_credits,clip_5s_usd,clip_10s_credits,clip_10s_usd,price_date
+grok-video-v15-lite,Grok Imagine Video 1.5 Lite,Grok,720p,none,Mini,3.99,180,0.0222,43,0.95,86,1.91,2026-11-09
+grok-video-v15-lite,Grok Imagine Video 1.5 Lite,Grok,720p,none,Agency,499.00,47000,0.0106,43,0.46,86,0.91,2026-11-09
+seedance-2-0-mini,Seedance 2.0 Mini,Seedance,720p,on,Mini,3.99,180,0.0222,43,0.95,86,1.91,2026-11-09
+seedance-2-0-mini,Seedance 2.0 Mini,Seedance,720p,on,Agency,499.00,47000,0.0106,43,0.46,86,0.91,2026-11-09
+kling-o3-image-reference,Kling 3.0 Omni,Kling,,on,Mini,3.99,180,0.0222,54,1.20,108,2.39,2026-11-09
+kling-o3-image-reference,Kling 3.0 Omni,Kling,,on,Agency,499.00,47000,0.0106,54,0.57,108,1.15,2026-11-09
+kling-o3-flf,Kling 3.0 Omni (Frames),Kling,,on,Mini,3.99,180,0.0222,54,1.20,108,2.39,2026-11-09
+kling-o3-flf,Kling 3.0 Omni (Frames),Kling,,on,Agency,499.00,47000,0.0106,54,0.57,108,1.15,2026-11-09
+grok-video,Grok Video,Grok,,none,Mini,3.99,180,0.0222,65,1.44,129,2.86,2026-11-09
+grok-video,Grok Video,Grok,,none,Agency,499.00,47000,0.0106,65,0.69,129,1.37,2026-11-09
+kling-3-turbo,Kling 3.0 Turbo,Kling,720p,none,Mini,3.99,180,0.0222,65,1.44,129,2.86,2026-11-09
+kling-3-turbo,Kling 3.0 Turbo,Kling,720p,none,Agency,499.00,47000,0.0106,65,0.69,129,1.37,2026-11-09
+wan-2.6,Wan 2.6,Wan,720p,none,Mini,3.99,180,0.0222,65,1.44,129,2.86,2026-11-09
+wan-2.6,Wan 2.6,Wan,720p,none,Agency,499.00,47000,0.0106,65,0.69,129,1.37,2026-11-09
+wan-2.7,Wan 2.7,Wan,720p,none,Mini,3.99,180,0.0222,65,1.44,129,2.86,2026-11-09
+wan-2.7,Wan 2.7,Wan,720p,none,Agency,499.00,47000,0.0106,65,0.69,129,1.37,2026-11-09
+kling-3-std,Kling 3.0 Standard,Kling,,on,Mini,3.99,180,0.0222,76,1.68,151,3.35,2026-11-09
+kling-3-std,Kling 3.0 Standard,Kling,,on,Agency,499.00,47000,0.0106,76,0.81,151,1.60,2026-11-09
+wan-3,Wan 3.0,Wan,720p,none,Mini,3.99,180,0.0222,76,1.68,151,3.35,2026-11-09
+wan-3,Wan 3.0,Wan,720p,none,Agency,499.00,47000,0.0106,76,0.81,151,1.60,2026-11-09
+kling2-6,Kling 2.6 Video,Kling,,on,Mini,3.99,180,0.0222,86,1.91,172,3.81,2026-11-09
+kling2-6,Kling 2.6 Video,Kling,,on,Agency,499.00,47000,0.0106,86,0.91,172,1.83,2026-11-09
+kling-3-pro,Kling 3.0 Pro,Kling,,on,Mini,3.99,180,0.0222,86,1.91,172,3.81,2026-11-09
+kling-3-pro,Kling 3.0 Pro,Kling,,on,Agency,499.00,47000,0.0106,86,0.91,172,1.83,2026-11-09
+minimax-h3,MiniMax H3,MiniMax,2K,none,Mini,3.99,180,0.0222,86,1.91,172,3.81,2026-11-09
+minimax-h3,MiniMax H3,MiniMax,2K,none,Agency,499.00,47000,0.0106,86,0.91,172,1.83,2026-11-09
+gemini-omni-flash-1-2,Gemini Omni Flash 1.2,Gemini,720p,none,Mini,3.99,180,0.0222,97,2.15,193,4.28,2026-11-09
+gemini-omni-flash-1-2,Gemini Omni Flash 1.2,Gemini,720p,none,Agency,499.00,47000,0.0106,97,1.03,193,2.05,2026-11-09
+kling-4,Kling 4.0,Kling,720p,none,Mini,3.99,180,0.0222,97,2.15,193,4.28,2026-11-09
+kling-4,Kling 4.0,Kling,720p,none,Agency,499.00,47000,0.0106,97,1.03,193,2.05,2026-11-09
+happy-horse-video,Happy Horse Video,Happy Horse Video,720p,none,Mini,3.99,180,0.0222,108,2.39,215,4.77,2026-11-09
+happy-horse-video,Happy Horse Video,Happy Horse Video,720p,none,Agency,499.00,47000,0.0106,108,1.15,215,2.28,2026-11-09
+minimax-h3-max,MiniMax H3 Max,MiniMax,768p,none,Mini,3.99,180,0.0222,108,2.39,215,4.77,2026-11-09
+minimax-h3-max,MiniMax H3 Max,MiniMax,768p,none,Agency,499.00,47000,0.0106,108,1.15,215,2.28,2026-11-09
+seedance-2-fast,Seedance 2.0 Fast,Seedance,720p,on,Mini,3.99,180,0.0222,108,2.39,215,4.77,2026-11-09
+seedance-2-fast,Seedance 2.0 Fast,Seedance,720p,on,Agency,499.00,47000,0.0106,108,1.15,215,2.28,2026-11-09
+gemini-omni,Gemini Omni Flash,Gemini,720p,none,Mini,3.99,180,0.0222,129,2.86,258,5.72,2026-11-09
+gemini-omni,Gemini Omni Flash,Gemini,720p,none,Agency,499.00,47000,0.0106,129,1.37,258,2.74,2026-11-09
+gemini-omni-flash-1-1,Gemini Omni Flash 1.1,Gemini,720p,none,Mini,3.99,180,0.0222,129,2.86,258,5.72,2026-11-09
+gemini-omni-flash-1-1,Gemini Omni Flash 1.1,Gemini,720p,none,Agency,499.00,47000,0.0106,129,1.37,258,2.74,2026-11-09
+kling-4-flash,Kling 4.0 Flash,Kling,720p,none,Mini,3.99,180,0.0222,129,2.86,258,5.72,2026-11-09
+kling-4-flash,Kling 4.0 Flash,Kling,720p,none,Agency,499.00,47000,0.0106,129,1.37,258,2.74,2026-11-09
+wan-3-prime,Wan 3.0 Prime,Wan,720p,none,Mini,3.99,180,0.0222,129,2.86,258,5.72,2026-11-09
+wan-3-prime,Wan 3.0 Prime,Wan,720p,none,Agency,499.00,47000,0.0106,129,1.37,258,2.74,2026-11-09
+seedance-2,Seedance 2.0,Seedance,720p,on,Mini,3.99,180,0.0222,193,4.28,386,8.56,2026-11-09
+seedance-2,Seedance 2.0,Seedance,720p,on,Agency,499.00,47000,0.0106,193,2.05,386,4.10,2026-11-09
+flux-3-video,FLUX 3 Video,FLUX,720p,on,Mini,3.99,180,0.0222,258,5.72,515,11.42,2026-11-09
+flux-3-video,FLUX 3 Video,FLUX,720p,on,Agency,499.00,47000,0.0106,258,2.74,515,5.47,2026-11-09
+kling-3-4k,Kling 3.0 4K,Kling,,on,Mini,3.99,180,0.0222,258,5.72,515,11.42,2026-11-09
+kling-3-4k,Kling 3.0 4K,Kling,,on,Agency,499.00,47000,0.0106,258,2.74,515,5.47,2026-11-09
+seedance-2.5,Seedance 2.5,Seedance,720p,on,Mini,3.99,180,0.0222,301,6.67,601,13.32,2026-11-09
+seedance-2.5,Seedance 2.5,Seedance,720p,on,Agency,499.00,47000,0.0106,301,3.20,601,6.38,2026-11-09
+seedance-2.5-extend,Seedance 2.5 Extend,Seedance,720p,on,Mini,3.99,180,0.0222,301,6.67,601,13.32,2026-11-09
+seedance-2.5-extend,Seedance 2.5 Extend,Seedance,720p,on,Agency,499.00,47000,0.0106,301,3.20,601,6.38,2026-11-09

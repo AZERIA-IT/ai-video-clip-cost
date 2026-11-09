@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI video clip cost dataset</title>
+<meta name="description" content="Credits and US dollar cost of one AI video clip per model on Twistavo, prices dated 2026-11-09. CC BY 4.0.">
+<style>
+body{font-family:system-ui,sans-serif;margin:2rem auto;max-width:72rem;padding:0 1rem;color:#111;line-height:1.5}
+table{border-collapse:collapse;font-size:.85rem;display:block;overflow-x:auto}
+th,td{border:1px solid #ccc;padding:.3rem .5rem;text-align:left;white-space:nowrap}
+th{background:#f3f3f3}
+</style>
+</head>
+<body>
+<h1>AI video clip cost dataset</h1>
+<p>Cost of one AI video clip per model on Twistavo, in credits and US dollars: 54 rows, one per model and plan, prices dated 2026-11-09.</p>
+<p>Source: <a href="https://twistavo.com/pricing/clip-cost">https://twistavo.com/pricing/clip-cost</a>. Data: <a href="data/clip-cost.csv">clip-cost.csv</a> (also <a href="data/clip-cost.json">JSON</a>). License: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, attribution "Twistavo, https://twistavo.com/pricing/clip-cost".</p>
+<table>
+<thead><tr><th>model_id</th><th>model_name</th><th>family</th><th>resolution</th><th>sound</th><th>plan</th><th>plan_price_usd_per_month</th><th>plan_credits_per_month</th><th>usd_per_credit</th><th>clip_5s_credits</th><th>clip_5s_usd</th><th>clip_10s_credits</th><th>clip_10s_usd</th><th>price_date</th></tr></thead>
+<tbody>
+<tr><td>grok-video-v15-lite</td><td>Grok Imagine Video 1.5 Lite</td><td>Grok</td><td>720p</td><td>none</td><td>Mini</td><td>3.99</td><td>180</td><td>0.0222</td><td>43</td><td>0.95</td><td>86</td><td>1.91</td><td>2026-11-09</td></tr>
+<tr><td>grok-video-v15-lite</td><td>Grok Imagine Video 1.5 Lite</td><td>Grok</td><td>720p</td><td>none</td><td>Agency</td><td>499.00</td><td>47000</td><td>0.0106</td><td>43</td><td>0.46</td><td>86</td><td>0.91</td><td>2026-11-09</td></tr>
+<tr><td>seedance-2-0-mini</td><td>Seedance 2.0 Mini</td><td>Seedance</td><td>720p</td><td>on</td><td>Mini</td><td>3.99</td><td>180</td><td>0.0222</td><td>43</td><td>0.95</td><td>86</td><td>1.91</td><td>2026-11-09</td></tr>
+<tr><td>seedance-2-0-mini</td><td>Seedance 2.0 Mini</td><td>Seedance</td><td>720p</td><td>on</td><td>Agency</td><td>499.00</td><td>47000</td><td>0.0106</td><td>43</td><td>0.46</td><td>86</td><td>0.91</td><td>2026-11-09</td></tr>
+<tr><td>kling-o3-image-reference</td><td>Kling 3.0 Omni</td><td>Kling</td><td></td><td>on</td><td>Mini</td><td>3.99</td><td>180</td><td>0.0222</td><td>54</td><td>1.20</td><td>108</td><td>2.39</td><td>2026-11-09</td></tr>
+<tr><td>kling-o3-image-reference</td><td>Kling 3.0 Omni</td><td>Kling</td><td></td><td>on</td><td>Agency</td><td>499.00</td><td>47000</td><td>0.0106</td><td>54</td><td>0.57</td><td>108</td><td>1.15</td><td>2026-11-09</td></tr>
+<tr><td>kling-o3-flf</td><td>Kling 3.0 Omni (Frames)</td><td>Kling</td><td></td><td>on</td><td>Mini</td><td>3.99</td><td>180</td><td>0.0222</td><td>54</td><td>1.20</td><td>108</td><td>2.39</td><td>2026-11-09</td></tr>
+<tr><td>kling-o3-flf</td><td>Kling 3.0 Omni (Frames)</td><td>Kling</td><td></td><td>on</td><td>Agency</td><td>499.00</td><td>47000</td><td>0.0106</td><td>54</td><td>0.57</td><td>108</td><td>1.15</td><td>2026-11-09</td></tr>
+<tr><td>grok-video</td><td>Grok Video</td><td>Grok</td><td></td><td>none</td><td>Mini</td><td>3.99</td><td>180</td><td>0.0222</td><td>65</td><td>1.44</td><td>129</td><td>2.86</td><td>2026-11-09</td></tr>
+<tr><td>grok-video</td><td>Grok Video</td><td>Grok</td><td></td><td>none</td><td>Agency</td><td>499.00</td><td>47000</td><td>0.0106</td><td>65</td><td>0.69</td><td>129</td><td>1.37</td><td>2026-11-09</td></tr>
+<tr><td>kling-3-turbo</td><td>Kling 3.0 Turbo</td><td>Kling</td><td>720p</td><td>none</td><td>Mini</td><td>3.99</td><td>180</td><td>0.0222</td><td>65</td><td>1.44</td><td>129</td><td>2.86</td><td>2026-11-09</td></tr>
+<tr><td>kling-3-turbo</td><td>Kling 3.0 Turbo</td><td>Kling</td><td>720p</td><td>none</td><td>Agency</td><td>499.00</td><td>47000</td><td>0.0106</td><td>65</td><td>0.69</td><td>129</td><td>1.37</td><td>2026-11-09</td></tr>
+<tr><td>wan-2.6</td><td>Wan 2.6</td><td>Wan</td><td>720p</td><td>none</td><td>Mini</td><td>3.99</td><td>180</td><td>0.0222</td><td>65</td><td>1.44</td><td>129</td><td>2.86</td><td>2026-11-09</td></tr>
+<tr><td>wan-2.6</td><td>Wan 2.6</td><td>Wan</td><td>720p</td><td>none</td><td>Agency</td><td>499.00</td><td>47000</td><td>0.0106</td><td>65</td><td>0.69</td><td>129</td><td>1.37</td><td>2026-11-09</td></tr>
+<tr><td>wan-2.7</td><td>Wan 2.7</td><td>Wan</td><td>720p</td><td>none</td><td>Mini</td><td>3.99</td><td>180</td><td>0.0222</td><td>65</td><td>1.44</td><td>129</td><td>2.86</td><td>2026-11-09</td></tr>
+<tr><td>wan-2.7</td><td>Wan 2.7</td><td>Wan</td><td>720p</td><td>none</td><td>Agency</td><td>499.00</td><td>47000</td><td>0.0106</td><td>65</td><td>0.69</td><td>129</td><td>1.37</td><td>2026-11-09</td></tr>
+<tr><td>kling-3-std</td><td>Kling 3.0 Standard</td><td>Kling</td><td></td><td>on</td><td>Mini</td><td>3.99</td><td>180</td><td>0.0222</td><td>76</td><td>1.68</td><td>151</td><td>3.35</td><td>2026-11-09</td></tr>
+<tr><td>kling-3-std</td><td>Kling 3.0 Standard</td><td>Kling</td><td></td><td>on</td><td>Agency</td><td>499.00</td><td>47000</td><td>0.0106</td><td>76</td><td>0.81</td><td>151</td><td>1.60</td><td>2026-11-09</td></tr>
+<tr><td>wan-3</td><td>Wan 3.0</td><td>Wan</td><td>720p</td><td>none</td><td>Mini</td><td>3.99</td><td>180</td><td>0.0222</td><td>76</td><td>1.68</td><td>151</td><td>3.35</td><td>2026-11-09</td></tr>
+<tr><td>wan-3</td><td>Wan 3.0</td><td>Wan</td><td>720p</td><td>none</td><td>Agency</td><td>499.00</td><td>47000</td><td>0.0106</td><td>76</td><td>0.81</td><td>151</td><td>1.60</td><td>2026-11-09</td></tr>
+<tr><td>kling2-6</td><td>Kling 2.6 Video</td><td>Kling</td><td></td><td>on</td><td>Mini</td><td>3.99</td><td>180</td><td>0.0222</td><td>86</td><td>1.91</td><td>172</td><td>3.81</td><td>2026-11-09</td></tr>
+<tr><td>kling2-6</td><td>Kling 2.6 Video</td><td>Kling</td><td></td><td>on</td><td>Agency</td><td>499.00</td><td>47000</td><td>0.0106</td><td>86</td><td>0.91</td><td>172</td><td>1.83</td><td>2026-11-09</td></tr>
+<tr><td>kling-3-pro</td><td>Kling 3.0 Pro</td><td>Kling</td><td></td><td>on</td><td>Mini</td><td>3.99</td><td>180</td><td>0.0222</td><td>86</td><td>1.91</td><td>172</td><td>3.81</td><td>2026-11-09</td></tr>
+<tr><td>kling-3-pro</td><td>Kling 3.0 Pro</td><td>Kling</td><td></td><td>on</td><td>Agency</td><td>499.00</td><td>47000</td><td>0.0106</td><td>86</td><td>0.91</td><td>172</td><td>1.83</td><td>2026-11-09</td></tr>
+<tr><td>minimax-h3</td><td>MiniMax H3</td><td>MiniMax</td><td>2K</td><td>none</td><td>Mini</td><td>3.99</td><td>180</td><td>0.0222</td><td>86</td><td>1.91</td><td>172</td><td>3.81</td><td>2026-11-09</td></tr>
+<tr><td>minimax-h3</td><td>MiniMax H3</td><td>MiniMax</td><td>2K</td><td>none</td><td>Agency</td><td>499.00</td><td>47000</td><td>0.0106</td><td>86</td><td>0.91</td><td>172</td><td>1.83</td><td>2026-11-09</td></tr>
+<tr><td>gemini-omni-flash-1-2</td><td>Gemini Omni Flash 1.2</td><td>Gemini</td><td>720p</td><td>none</td><td>Mini</td><td>3.99</td><td>180</td><td>0.0222</td><td>97</td><td>2.15</td><td>193</td><td>4.28</td><td>2026-11-09</td></tr>
+<tr><td>gemini-omni-flash-1-2</td><td>Gemini Omni Flash 1.2</td><td>Gemini</td><td>720p</td><td>none</td><td>Agency</td><td>499.00</td><td>47000</td><td>0.0106</td><td>97</td><td>1.03</td><td>193</td><td>2.05</td><td>2026-11-09</td></tr>
+<tr><td>kling-4</td><td>Kling 4.0</td><td>Kling</td><td>720p</td><td>none</td><td>Mini</td><td>3.99</td><td>180</td><td>0.0222</td><td>97</td><td>2.15</td><td>193</td><td>4.28</td><td>2026-11-09</td></tr>
+<tr><td>kling-4</td><td>Kling 4.0</td><td>Kling</td><td>720p</td><td>none</td><td>Agency</td><td>499.00</td><td>47000</td><td>0.0106</td><td>97</td><td>1.03</td><td>193</td><td>2.05</td><td>2026-11-09</td></tr>
+<tr><td>happy-horse-video</td><td>Happy Horse Video</td><td>Happy Horse Video</td><td>720p</td><td>none</td><td>Mini</td><td>3.99</td><td>180</td><td>0.0222</td><td>108</td><td>2.39</td><td>215</td><td>4.77</td><td>2026-11-09</td></tr>
+<tr><td>happy-horse-video</td><td>Happy Horse Video</td><td>Happy Horse Video</td><td>720p</td><td>none</td><td>Agency</td><td>499.00</td><td>47000</td><td>0.0106</td><td>108</td><td>1.15</td><td>215</td><td>2.28</td><td>2026-11-09</td></tr>
+<tr><td>minimax-h3-max</td><td>MiniMax H3 Max</td><td>MiniMax</td><td>768p</td><td>none</td><td>Mini</td><td>3.99</td><td>180</td><td>0.0222</td><td>108</td><td>2.39</td><td>215</td><td>4.77</td><td>2026-11-09</td></tr>
+<tr><td>minimax-h3-max</td><td>MiniMax H3 Max</td><td>MiniMax</td><td>768p</td><td>none</td><td>Agency</td><td>499.00</td><td>47000</td><td>0.0106</td><td>108</td><td>1.15</td><td>215</td><td>2.28</td><td>2026-11-09</td></tr>
+<tr><td>seedance-2-fast</td><td>Seedance 2.0 Fast</td><td>Seedance</td><td>720p</td><td>on</td><td>Mini</td><td>3.99</td><td>180</td><td>0.0222</td><td>108</td><td>2.39</td><td>215</td><td>4.77</td><td>2026-11-09</td></tr>
+<tr><td>seedance-2-fast</td><td>Seedance 2.0 Fast</td><td>Seedance</td><td>720p</td><td>on</td><td>Agency</td><td>499.00</td><td>47000</td><td>0.0106</td><td>108</td><td>1.15</td><td>215</td><td>2.28</td><td>2026-11-09</td></tr>
+<tr><td>gemini-omni</td><td>Gemini Omni Flash</td><td>Gemini</td><td>720p</td><td>none</td><td>Mini</td><td>3.99</td><td>180</td><td>0.0222</td><td>129</td><td>2.86</td><td>258</td><td>5.72</td><td>2026-11-09</td></tr>
+<tr><td>gemini-omni</td><td>Gemini Omni Flash</td><td>Gemini</td><td>720p</td><td>none</td><td>Agency</td><td>499.00</td><td>47000</td><td>0.0106</td><td>129</td><td>1.37</td><td>258</td><td>2.74</td><td>2026-11-09</td></tr>
+<tr><td>gemini-omni-flash-1-1</td><td>Gemini Omni Flash 1.1</td><td>Gemini</td><td>720p</td><td>none</td><td>Mini</td><td>3.99</td><td>180</td><td>0.0222</td><td>129</td><td>2.86</td><td>258</td><td>5.72</td><td>2026-11-09</td></tr>
+<tr><td>gemini-omni-flash-1-1</td><td>Gemini Omni Flash 1.1</td><td>Gemini</td><td>720p</td><td>none</td><td>Agency</td><td>499.00</td><td>47000</td><td>0.0106</td><td>129</td><td>1.37</td><td>258</td><td>2.74</td><td>2026-11-09</td></tr>
+<tr><td>kling-4-flash</td><td>Kling 4.0 Flash</td><td>Kling</td><td>720p</td><td>none</td><td>Mini</td><td>3.99</td><td>180</td><td>0.0222</td><td>129</td><td>2.86</td><td>258</td><td>5.72</td><td>2026-11-09</td></tr>
+<tr><td>kling-4-flash</td><td>Kling 4.0 Flash</td><td>Kling</td><td>720p</td><td>none</td><td>Agency</td><td>499.00</td><td>47000</td><td>0.0106</td><td>129</td><td>1.37</td><td>258</td><td>2.74</td><td>2026-11-09</td></tr>
+<tr><td>wan-3-prime</td><td>Wan 3.0 Prime</td><td>Wan</td><td>720p</td><td>none</td><td>Mini</td><td>3.99</td><td>180</td><td>0.0222</td><td>129</td><td>2.86</td><td>258</td><td>5.72</td><td>2026-11-09</td></tr>
+<tr><td>wan-3-prime</td><td>Wan 3.0 Prime</td><td>Wan</td><td>720p</td><td>none</td><td>Agency</td><td>499.00</td><td>47000</td><td>0.0106</td><td>129</td><td>1.37</td><td>258</td><td>2.74</td><td>2026-11-09</td></tr>
+<tr><td>seedance-2</td><td>Seedance 2.0</td><td>Seedance</td><td>720p</td><td>on</td><td>Mini</td><td>3.99</td><td>180</td><td>0.0222</td><td>193</td><td>4.28</td><td>386</td><td>8.56</td><td>2026-11-09</td></tr>
+<tr><td>seedance-2</td><td>Seedance 2.0</td><td>Seedance</td><td>720p</td><td>on</td><td>Agency</td><td>499.00</td><td>47000</td><td>0.0106</td><td>193</td><td>2.05</td><td>386</td><td>4.10</td><td>2026-11-09</td></tr>
+<tr><td>flux-3-video</td><td>FLUX 3 Video</td><td>FLUX</td><td>720p</td><td>on</td><td>Mini</td><td>3.99</td><td>180</td><td>0.0222</td><td>258</td><td>5.72</td><td>515</td><td>11.42</td><td>2026-11-09</td></tr>
+<tr><td>flux-3-video</td><td>FLUX 3 Video</td><td>FLUX</td><td>720p</td><td>on</td><td>Agency</td><td>499.00</td><td>47000</td><td>0.0106</td><td>258</td><td>2.74</td><td>515</td><td>5.47</td><td>2026-11-09</td></tr>
+<tr><td>kling-3-4k</td><td>Kling 3.0 4K</td><td>Kling</td><td></td><td>on</td><td>Mini</td><td>3.99</td><td>180</td><td>0.0222</td><td>258</td><td>5.72</td><td>515</td><td>11.42</td><td>2026-11-09</td></tr>
+<tr><td>kling-3-4k</td><td>Kling 3.0 4K</td><td>Kling</td><td></td><td>on</td><td>Agency</td><td>499.00</td><td>47000</td><td>0.0106</td><td>258</td><td>2.74</td><td>515</td><td>5.47</td><td>2026-11-09</td></tr>
+<tr><td>seedance-2.5</td><td>Seedance 2.5</td><td>Seedance</td><td>720p</td><td>on</td><td>Mini</td><td>3.99</td><td>180</td><td>0.0222</td><td>301</td><td>6.67</td><td>601</td><td>13.32</td><td>2026-11-09</td></tr>
+<tr><td>seedance-2.5</td><td>Seedance 2.5</td><td>Seedance</td><td>720p</td><td>on</td><td>Agency</td><td>499.00</td><td>47000</td><td>0.0106</td><td>301</td><td>3.20</td><td>601</td><td>6.38</td><td>2026-11-09</td></tr>
+<tr><td>seedance-2.5-extend</td><td>Seedance 2.5 Extend</td><td>Seedance</td><td>720p</td><td>on</td><td>Mini</td><td>3.99</td><td>180</td><td>0.0222</td><td>301</td><td>6.67</td><td>601</td><td>13.32</td><td>2026-11-09</td></tr>
+<tr><td>seedance-2.5-extend</td><td>Seedance 2.5 Extend</td><td>Seedance</td><td>720p</td><td>on</td><td>Agency</td><td>499.00</td><td>47000</td><td>0.0106</td><td>301</td><td>3.20</td><td>601</td><td>6.38</td><td>2026-11-09</td></tr>
+</tbody>
+</table>
+</body>
+</html>
