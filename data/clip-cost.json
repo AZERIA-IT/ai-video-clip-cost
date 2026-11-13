@@ -5,7 +5,7 @@
   "source_csv": "https://twistavo.com/pricing/clip-cost/data.csv",
   "license": "CC BY 4.0",
   "attribution": "Twistavo, https://twistavo.com/pricing/clip-cost",
-  "price_date": "2026-11-09",
+  "price_date": "2026-11-13",
   "columns": [
     "model_id",
     "model_name",
@@ -37,7 +37,7 @@
       "clip_5s_usd": "0.95",
       "clip_10s_credits": "86",
       "clip_10s_usd": "1.91",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "grok-video-v15-lite",
@@ -53,7 +53,7 @@
       "clip_5s_usd": "0.46",
       "clip_10s_credits": "86",
       "clip_10s_usd": "0.91",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "seedance-2-0-mini",
@@ -69,7 +69,7 @@
       "clip_5s_usd": "0.95",
       "clip_10s_credits": "86",
       "clip_10s_usd": "1.91",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "seedance-2-0-mini",
@@ -85,7 +85,7 @@
       "clip_5s_usd": "0.46",
       "clip_10s_credits": "86",
       "clip_10s_usd": "0.91",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "kling-o3-image-reference",
@@ -101,7 +101,7 @@
       "clip_5s_usd": "1.20",
       "clip_10s_credits": "108",
       "clip_10s_usd": "2.39",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "kling-o3-image-reference",
@@ -117,7 +117,7 @@
       "clip_5s_usd": "0.57",
       "clip_10s_credits": "108",
       "clip_10s_usd": "1.15",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "kling-o3-flf",
@@ -133,7 +133,7 @@
       "clip_5s_usd": "1.20",
       "clip_10s_credits": "108",
       "clip_10s_usd": "2.39",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "kling-o3-flf",
@@ -149,7 +149,7 @@
       "clip_5s_usd": "0.57",
       "clip_10s_credits": "108",
       "clip_10s_usd": "1.15",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "grok-video",
@@ -165,7 +165,7 @@
       "clip_5s_usd": "1.44",
       "clip_10s_credits": "129",
       "clip_10s_usd": "2.86",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "grok-video",
@@ -181,7 +181,7 @@
       "clip_5s_usd": "0.69",
       "clip_10s_credits": "129",
       "clip_10s_usd": "1.37",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "kling-3-turbo",
@@ -197,7 +197,7 @@
       "clip_5s_usd": "1.44",
       "clip_10s_credits": "129",
       "clip_10s_usd": "2.86",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "kling-3-turbo",
@@ -213,7 +213,7 @@
       "clip_5s_usd": "0.69",
       "clip_10s_credits": "129",
       "clip_10s_usd": "1.37",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "wan-2.6",
@@ -229,7 +229,7 @@
       "clip_5s_usd": "1.44",
       "clip_10s_credits": "129",
       "clip_10s_usd": "2.86",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "wan-2.6",
@@ -245,7 +245,7 @@
       "clip_5s_usd": "0.69",
       "clip_10s_credits": "129",
       "clip_10s_usd": "1.37",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "wan-2.7",
@@ -261,7 +261,7 @@
       "clip_5s_usd": "1.44",
       "clip_10s_credits": "129",
       "clip_10s_usd": "2.86",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "wan-2.7",
@@ -277,7 +277,7 @@
       "clip_5s_usd": "0.69",
       "clip_10s_credits": "129",
       "clip_10s_usd": "1.37",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "kling-3-std",
@@ -293,7 +293,7 @@
       "clip_5s_usd": "1.68",
       "clip_10s_credits": "151",
       "clip_10s_usd": "3.35",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "kling-3-std",
@@ -309,7 +309,7 @@
       "clip_5s_usd": "0.81",
       "clip_10s_credits": "151",
       "clip_10s_usd": "1.60",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "wan-3",
@@ -325,7 +325,7 @@
       "clip_5s_usd": "1.68",
       "clip_10s_credits": "151",
       "clip_10s_usd": "3.35",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "wan-3",
@@ -341,7 +341,7 @@
       "clip_5s_usd": "0.81",
       "clip_10s_credits": "151",
       "clip_10s_usd": "1.60",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "kling2-6",
@@ -357,7 +357,7 @@
       "clip_5s_usd": "1.91",
       "clip_10s_credits": "172",
       "clip_10s_usd": "3.81",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "kling2-6",
@@ -373,7 +373,7 @@
       "clip_5s_usd": "0.91",
       "clip_10s_credits": "172",
       "clip_10s_usd": "1.83",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "kling-3-pro",
@@ -389,7 +389,7 @@
       "clip_5s_usd": "1.91",
       "clip_10s_credits": "172",
       "clip_10s_usd": "3.81",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "kling-3-pro",
@@ -405,7 +405,7 @@
       "clip_5s_usd": "0.91",
       "clip_10s_credits": "172",
       "clip_10s_usd": "1.83",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "minimax-h3",
@@ -421,7 +421,7 @@
       "clip_5s_usd": "1.91",
       "clip_10s_credits": "172",
       "clip_10s_usd": "3.81",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "minimax-h3",
@@ -437,7 +437,7 @@
       "clip_5s_usd": "0.91",
       "clip_10s_credits": "172",
       "clip_10s_usd": "1.83",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "gemini-omni-flash-1-2",
@@ -453,7 +453,7 @@
       "clip_5s_usd": "2.15",
       "clip_10s_credits": "193",
       "clip_10s_usd": "4.28",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "gemini-omni-flash-1-2",
@@ -469,7 +469,7 @@
       "clip_5s_usd": "1.03",
       "clip_10s_credits": "193",
       "clip_10s_usd": "2.05",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "kling-4",
@@ -485,7 +485,7 @@
       "clip_5s_usd": "2.15",
       "clip_10s_credits": "193",
       "clip_10s_usd": "4.28",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "kling-4",
@@ -501,7 +501,7 @@
       "clip_5s_usd": "1.03",
       "clip_10s_credits": "193",
       "clip_10s_usd": "2.05",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "happy-horse-video",
@@ -517,7 +517,7 @@
       "clip_5s_usd": "2.39",
       "clip_10s_credits": "215",
       "clip_10s_usd": "4.77",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "happy-horse-video",
@@ -533,7 +533,7 @@
       "clip_5s_usd": "1.15",
       "clip_10s_credits": "215",
       "clip_10s_usd": "2.28",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "minimax-h3-max",
@@ -549,7 +549,7 @@
       "clip_5s_usd": "2.39",
       "clip_10s_credits": "215",
       "clip_10s_usd": "4.77",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "minimax-h3-max",
@@ -565,7 +565,7 @@
       "clip_5s_usd": "1.15",
       "clip_10s_credits": "215",
       "clip_10s_usd": "2.28",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "seedance-2-fast",
@@ -581,7 +581,7 @@
       "clip_5s_usd": "2.39",
       "clip_10s_credits": "215",
       "clip_10s_usd": "4.77",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "seedance-2-fast",
@@ -597,7 +597,7 @@
       "clip_5s_usd": "1.15",
       "clip_10s_credits": "215",
       "clip_10s_usd": "2.28",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "gemini-omni",
@@ -613,7 +613,7 @@
       "clip_5s_usd": "2.86",
       "clip_10s_credits": "258",
       "clip_10s_usd": "5.72",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "gemini-omni",
@@ -629,7 +629,7 @@
       "clip_5s_usd": "1.37",
       "clip_10s_credits": "258",
       "clip_10s_usd": "2.74",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "gemini-omni-flash-1-1",
@@ -645,7 +645,7 @@
       "clip_5s_usd": "2.86",
       "clip_10s_credits": "258",
       "clip_10s_usd": "5.72",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "gemini-omni-flash-1-1",
@@ -661,7 +661,7 @@
       "clip_5s_usd": "1.37",
       "clip_10s_credits": "258",
       "clip_10s_usd": "2.74",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "kling-4-flash",
@@ -677,7 +677,7 @@
       "clip_5s_usd": "2.86",
       "clip_10s_credits": "258",
       "clip_10s_usd": "5.72",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "kling-4-flash",
@@ -693,7 +693,7 @@
       "clip_5s_usd": "1.37",
       "clip_10s_credits": "258",
       "clip_10s_usd": "2.74",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "wan-3-prime",
@@ -709,7 +709,7 @@
       "clip_5s_usd": "2.86",
       "clip_10s_credits": "258",
       "clip_10s_usd": "5.72",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "wan-3-prime",
@@ -725,7 +725,7 @@
       "clip_5s_usd": "1.37",
       "clip_10s_credits": "258",
       "clip_10s_usd": "2.74",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "seedance-2",
@@ -741,7 +741,7 @@
       "clip_5s_usd": "4.28",
       "clip_10s_credits": "386",
       "clip_10s_usd": "8.56",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "seedance-2",
@@ -757,7 +757,7 @@
       "clip_5s_usd": "2.05",
       "clip_10s_credits": "386",
       "clip_10s_usd": "4.10",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "flux-3-video",
@@ -773,7 +773,7 @@
       "clip_5s_usd": "5.72",
       "clip_10s_credits": "515",
       "clip_10s_usd": "11.42",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "flux-3-video",
@@ -789,7 +789,7 @@
       "clip_5s_usd": "2.74",
       "clip_10s_credits": "515",
       "clip_10s_usd": "5.47",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "kling-3-4k",
@@ -805,7 +805,7 @@
       "clip_5s_usd": "5.72",
       "clip_10s_credits": "515",
       "clip_10s_usd": "11.42",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "kling-3-4k",
@@ -821,7 +821,7 @@
       "clip_5s_usd": "2.74",
       "clip_10s_credits": "515",
       "clip_10s_usd": "5.47",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "seedance-2.5",
@@ -837,7 +837,7 @@
       "clip_5s_usd": "6.67",
       "clip_10s_credits": "601",
       "clip_10s_usd": "13.32",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "seedance-2.5",
@@ -853,7 +853,7 @@
       "clip_5s_usd": "3.20",
       "clip_10s_credits": "601",
       "clip_10s_usd": "6.38",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "seedance-2.5-extend",
@@ -869,7 +869,7 @@
       "clip_5s_usd": "6.67",
       "clip_10s_credits": "601",
       "clip_10s_usd": "13.32",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     },
     {
       "model_id": "seedance-2.5-extend",
@@ -885,7 +885,7 @@
       "clip_5s_usd": "3.20",
       "clip_10s_credits": "601",
       "clip_10s_usd": "6.38",
-      "price_date": "2026-11-09"
+      "price_date": "2026-11-13"
     }
   ]
 }
