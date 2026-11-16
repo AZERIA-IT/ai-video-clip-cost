@@ -41,6 +41,10 @@ Prices change when model providers change theirs. Check `price_date` before you 
 
 `node scripts/build.mjs` (Node 20 or later, no dependencies) downloads https://twistavo.com/pricing/clip-cost/data.csv, checks its header against the expected column list, and writes `data/` and `index.html`. No value is typed by hand. Last update: see `price_date` in the data.
 
+## How to cite
+
+AZERIA IT (Twistavo). *AI video clip cost by model (Twistavo, monthly)*. Zenodo. DOI: [10.5281/zenodo.24272620](https://doi.org/10.5281/zenodo.24272620) (record: https://zenodo.org/records/24272620). Citation metadata: [`CITATION.cff`](CITATION.cff).
+
 ## License
 
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Attribution: "Twistavo, https://twistavo.com/pricing/clip-cost".

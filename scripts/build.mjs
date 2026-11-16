@@ -138,6 +138,7 @@ th{background:#f3f3f3}
 <h1>AI video clip cost dataset</h1>
 <p>Cost of one AI video clip per model on Twistavo, in credits and US dollars: ${records.length} rows, one per model and plan, prices dated ${esc(priceDate)}.</p>
 <p>Source: <a href="${SOURCE_URL}">${SOURCE_URL}</a>. Data: <a href="data/clip-cost.csv">clip-cost.csv</a> (also <a href="data/clip-cost.json">JSON</a>). License: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, attribution "Twistavo, ${SOURCE_URL}".</p>
+<p>Cite: AZERIA IT (Twistavo), <i>AI video clip cost by model (Twistavo, monthly)</i>, Zenodo, DOI <a href="https://doi.org/10.5281/zenodo.24272620">10.5281/zenodo.24272620</a>.</p>
 <table>
 <thead><tr>${head}</tr></thead>
 <tbody>
