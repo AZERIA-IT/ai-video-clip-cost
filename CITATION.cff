@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "AI video clip cost by model (Twistavo, monthly)"
+authors:
+  - name: "AZERIA IT (Twistavo)"
+license: CC-BY-4.0
+doi: 10.5281/zenodo.24272620
+url: "https://twistavo.com/pricing/clip-cost"
+repository-code: "https://github.com/AZERIA-IT/ai-video-clip-cost"
+date-released: 2026-11-16
+keywords:
+  - dataset
+  - ai-video
+  - video-generation
+  - pricing
+  - text-to-video
