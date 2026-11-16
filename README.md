@@ -43,7 +43,7 @@ Prices change when model providers change theirs. Check `price_date` before you 
 
 ## How to cite
 
-AZERIA IT (Twistavo). *AI video clip cost by model (Twistavo, monthly)*. Zenodo. DOI: [10.5281/zenodo.24272620](https://doi.org/10.5281/zenodo.24272620) (record: https://zenodo.org/records/24272620). Citation metadata: [`CITATION.cff`](CITATION.cff).
+AZERIA IT (Twistavo). *AI video clip cost by model (Twistavo, monthly)*. Zenodo. DOI: [10.5281/zenodo.24272619](https://doi.org/10.5281/zenodo.24272619) (record: https://zenodo.org/records/24272619). Citation metadata: [`CITATION.cff`](CITATION.cff).
 
 ## License
 
